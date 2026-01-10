@@ -1,4 +1,4 @@
-# Policy Management Software
+# InsuredMine Assignment
 
 A comprehensive policy management system built with Node.js, Express, and MongoDB. This application enables management of insurance policies, user accounts, agents, and carriers with support for bulk data import via CSV files.
 
