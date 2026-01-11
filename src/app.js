@@ -63,10 +63,10 @@ const server = app.listen(port, () => {
     console.log('App is running on port', port);
     // logger.info('Server started on port ' + port, { meta: { timestamp: new Date().toISOString() } });
     connectDB();
-    // Start CPU monitoring
-    startCPUMonitor(70);
     // Start cron AFTER DB is connected
     startMessageCron();
+    // Start CPU monitoring
+    startCPUMonitor(70);
 });
 
 // Handling unhandled promise rejections
